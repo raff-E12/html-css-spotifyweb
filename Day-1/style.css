@@ -18,6 +18,7 @@
     --black-1: #181D26;
     --white-2: #F2F2F2;
     --gray-1: #595959;
+    --black-3: #141A23;
     --black-1: #262626;
     --black-2: #000000;
 }
@@ -33,6 +34,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: var(--black-3);
 }
 
 ol, ul {
@@ -47,6 +49,10 @@ blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
+}
+
+img{
+    width: 100%;
 }
 
 table {
@@ -110,4 +116,104 @@ small{
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+
+/* Utilità di classi*/
+
+.container-fluid{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: auto;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.rown{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    gap: auto;
+}
+
+.left{
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.right{
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*Implementazione di stile nei componenti */
+
+.header-sc{
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-wrap: wrap;
+}
+
+.nav-bar{
+    width: 82px;
+    padding: 20px;
+    height: auto;
+    gap: 30px;
+    background-color: var(--black-2);
+}
+
+.img-box{
+    padding: 7px;
+    width: 60px;
+}
+
+.icons-sc{
+    height: 73vh;
+    justify-content: space-between;
+}
+
+.bottom-bar{
+    width: 100%;
+    height: 70px;
+    background-color: var(--black-1);
+}
+
+.first-sc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.first-sc li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    overflow: hidden;
+}
+
+#user-icon{
+    padding: 0;
+}
+
+.user-icon{
+    background-color: var(--gray-1);
+    width: 50px;
+    height: 50px;
+    padding: 9px;
+    border-radius: 100px;
+    overflow: hidden;
 }

@@ -1,1 +1,9 @@
-<svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Download icon</title><path d="M12 11.657V6h-1v5.65L9.076 9.414l-.758.65 3.183 3.702 3.195-3.7-.758-.653L12 11.657zM11.5 2C7.358 2 4 5.358 4 9.5c0 4.142 3.358 7.5 7.5 7.5 4.142 0 7.5-3.358 7.5-7.5C19 5.358 15.642 2 11.5 2zm0 14C7.916 16 5 13.084 5 9.5S7.916 3 11.5 3 18 5.916 18 9.5 15.084 16 11.5 16z" fill="#ffffff" fill-rule="evenodd"/></svg>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+	<title>home</title>
+	<defs>
+		<image width="660" height="660" id="img1" href="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAgMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPkRvd25sb2FkIGljb248L3RpdGxlPjxwYXRoIGQ9Ik0xMiAxMS42NTdWNmgtMXY1LjY1TDkuMDc2IDkuNDE0bC0uNzU4LjY1IDMuMTgzIDMuNzAyIDMuMTk1LTMuNy0uNzU4LS42NTNMMTIgMTEuNjU3ek0xMS41IDJDNy4zNTggMiA0IDUuMzU4IDQgOS41YzAgNC4xNDIgMy4zNTggNy41IDcuNSA3LjUgNC4xNDIgMCA3LjUtMy4zNTggNy41LTcuNUMxOSA1LjM1OCAxNS42NDIgMiAxMS41IDJ6bTAgMTRDNy45MTYgMTYgNSAxMy4wODQgNSA5LjVTNy45MTYgMyAxMS41IDMgMTggNS45MTYgMTggOS41IDE1LjA4NCAxNiAxMS41IDE2eiIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+"/>
+	</defs>
+	<style>
+	</style>
+	<use id="download" href="#img1" transform="matrix(.986,0,0,.986,-117,-57)"/>
+</svg>
