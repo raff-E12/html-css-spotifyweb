@@ -19,6 +19,7 @@
     --white-2: #F2F2F2;
     --gray-1: #595959;
     --black-1: #262626;
+    --black-2: #000000;
 }
 
 article, aside, details, figcaption, figure,
@@ -51,4 +52,62 @@ q:before, q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+/* Tipografia e implementazione dei font */
+
+h1{
+    font-size: 47.78px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h2{
+    font-size: 39.81px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h3{
+    font-size: 33.18px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h4{
+    font-size: 27.65px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h5{
+    font-size: 27.65px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h6{
+    font-size: 19.2px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+p{
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+small{
+    font-size: 13.33px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
