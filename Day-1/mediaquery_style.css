@@ -1,0 +1,45 @@
+@import url(style.css);
+
+@media screen and (min-width:910px) {
+    .nav-bar{
+        width: 250px;
+        height: 632px;
+    }
+
+    #logo-big{
+        display: block;
+        padding: 10px;
+    }
+
+    .img-box{
+        width: 100%;
+    }
+
+    #logo-small{
+        display: none;
+    }
+
+    .first-sc li{
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .first-sc .img-box{
+        width: 20%;
+    }
+
+    .first-sc li p{
+        display: block;
+        color: var(--white-2);
+    }
+
+    #home-sc::after{
+        content: '';
+        padding: 0;
+        width: 0;
+        height: 0;
+    }
+}

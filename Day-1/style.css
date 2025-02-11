@@ -156,7 +156,7 @@ small{
     justify-content: flex-end;
 }
 
-/*Implementazione di stile nei componenti */
+/*Implementazione di stile nei componenti nella sezione mobile-first*/
 
 .header-sc{
     position: fixed;
@@ -199,14 +199,34 @@ small{
 
 .first-sc li{
     display: flex;
+}
+
+.first-sc li p{
+    display: none;
+}
+
+.first-sc .img-box{
+    width: 100%;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding: 5px;
-    overflow: hidden;
+    position: relative;
+}
+
+#home-sc::after{
+    content: '';
+    padding: 3px;
+    width: 1px;
+    height: 40px;
+    background-color: var(--green-1);
+    position: absolute;
+    left: -15px;
 }
 
 #user-icon{
-    padding: 0;
+    padding: 10px;
+    overflow: hidden;
 }
 
 .user-icon{
@@ -215,5 +235,8 @@ small{
     height: 50px;
     padding: 9px;
     border-radius: 100px;
-    overflow: hidden;
+}
+
+#logo-big{
+    display: none;
 }
