@@ -279,6 +279,19 @@ small{
 .top-bar{
     background-color: var(--black-1);
     padding: 20px;
-    height: 100px;
+    height: 79px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-up{
+    padding: 16px;
+    background: transparent;
+    border: 3px solid var(--white-2);
+    color: var(--white-2);
+    font-weight: 900;
+    border-radius: 100px;
+    text-transform: capitalize;
 }
