@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Lexend:wght@282&family=Montserrat:ital,wght@0,417;1,417&family=Nerko+One&family=Pacifico&family=Plus+Jakarta+Sans:wght@660&family=Poppins&family=Quicksand:wght@647&family=Raleway:wght@526&family=Roboto:wght@499&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!--Header-->
     <header class="header-sc container-fluid left">
       <section class="nav-bar container">
         <div class="img-box">
@@ -51,11 +52,13 @@
         <nav class="bottom-bar"></nav>
     </header>
     <main class="main-sc container-fluid col">
+        <!--Top-Bar-->
         <section class="top-bar">
             <div class="container-fluid right">
                 <button class="btn-up"><p>Effetua l'Upgrade</p></button>
             </div>
         </section>
+        <!--Links Main-->
         <section class="playlist-menu-sc container-fluid col">
             <nav class="tags">
                 <ul>
@@ -70,16 +73,16 @@
             <h3>Recently Played</h3>
             <section class="front-menu container-fluid rown">
                     <!-- Playlist 1-->
-                    <div class="playlist container-fluid rown">
-                        <div class="play-box">
-                           <div class="img-playlist">
-                               <img src="img/metal_lifting.jpg" alt="playlist">
-                           </div>
-                            <div class="play-text container-fluid col">
-                               <h6>Heavy Metal</h6>
-                               <p>Subtitle</p>
-                            </div>
+                    <div class="play-box">
+                        <div class="img-playlist">
+                            <img src="img/metal_lifting.jpg" alt="playlist">
                         </div>
+                         <div class="play-text container-fluid col">
+                            <h6>Heavy Metal</h6>
+                            <small>Subtitle</small>
+                         </div>
+                     </div>
+                </div>
                    <!-- Playlist 2-->
                         <div class="play-box">
                            <div class="img-playlist">
@@ -87,10 +90,9 @@
                            </div>
                             <div class="play-text container-fluid col">
                                <h6>Stranger Things vol. 1 (a Netflix Original Series Soundtrack)</h6>
-                               <p>Kyle Dixon & Michael Stein</p>
+                               <small>Kyle Dixon & Michael Stein</small>
                             </div>
                         </div>
-                   </div>
                 <!-- Playlist 3-->
                    <div class="play-box">
                        <div class="img-playlist">
@@ -98,7 +100,7 @@
                        </div>
                         <div class="play-text container-fluid col">
                            <h6>Split</h6>
-                           <p>Subtitle</p>
+                           <small>Subtitle</small>
                         </div>
                     </div>
                </div>
@@ -109,7 +111,7 @@
                        </div>
                         <div class="play-text container-fluid col">
                            <h6>A cure of wellnes</h6>
-                           <p>Subtitle</p>
+                           <small>Subtitle</small>
                         </div>
                     </div>
                </div>
@@ -120,15 +122,16 @@
                    </div>
                     <div class="play-text container-fluid col">
                        <h6>Sinister</h6>
-                       <p>Subtitle</p>
+                       <small>Subtitle</small>
                     </div>
                  </div>
               </div>
             </section>
+            <!-- Playlist Mix-->
             <section class="container-fluid col mix-sc">
                 <div class="container-fluid col mix-text">
                     <h3>Creato per Users</h3>
-                    <p>più ascolti, più accurati saranno i suggerimenti.</p>
+                    <small>più ascolti, più accurati saranno i suggerimenti.</small>
                 </div>
                 <aside class="container-fluid rown mix-play">
                     <div class="play-box">
@@ -151,6 +154,28 @@
                    </div>
                 </aside>
             </section>
+            <!--Artist Section-->
+             <section class="artist-sc container-fluid col left">
+                <div class="text-art-sc container-fluid col left">
+                    <h4 class="container-fluid left">Artisti più popolari</h4>
+                    <small class="container-fluid left">Più ascolti, più accurati saranno i suggerimenti</small>
+                </div>
+                  <!--Artist Icons-->
+                <nav class="container-fluid rown left art-cont">
+                    <div class="box-artist">
+                        <div class="box-art-img">
+                            <img src="img/einaudi.jpeg" alt="artist">
+                        </div>
+                        <p>Ludovico Einaudi</p>
+                    </div>
+                    <div class="box-artist">
+                        <div  class="box-art-img">
+                            <img src="img/youg.jpeg" alt="artist">
+                        </div>
+                        <p>Lana del Ray</p>
+                    </div>
+                </nav>
+             </section>
         </section>
     </main>
 </body>

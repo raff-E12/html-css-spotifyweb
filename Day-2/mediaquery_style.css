@@ -2,7 +2,7 @@
 
 /*MediaQuery per il Desktop Essenziale*/
 
-@media screen and (min-width:910px) {
+@media screen and (min-width:1001px) {
     .nav-bar{
         width: 290px;
         height: 90vh;
