@@ -1,6 +1,6 @@
 @import url(style.css);
 
-/*MediaQuery per il Desktop Essenziale*/
+/*Adattaemento Sequneziale dal Mobile al Tablet in transizione*/
 
 @media (min-width:461px) and (max-width:886px) {
     .front-menu, .mix-play, .art-cont{
@@ -22,6 +22,8 @@
         padding: 10px;
     }
 }
+
+/*Adattamento per il Desktop Essenziale*/
 
 @media screen and (min-width:1001px) {
     .nav-bar{
@@ -129,5 +131,31 @@
     .artist-sc{
         width: 80%;
         padding: 10px;
+    }
+}
+
+/*Adattamendo per Schermi Grandi*/
+
+@media screen and (min-width:2100px) {
+    .playlist-menu-sc{
+        padding-left: 150px;
+        padding-bottom: 120px;
+        gap: 20px;
+    }
+
+    .front-menu{
+        justify-content: flex-start;
+    }
+
+    .mix-play{
+        width: 100%;
+    }
+}
+
+/*Prevenzione di gap nella navbar laterale*/
+
+@media screen and (max-height:720px){
+    .playlist-sc ul{
+        display: none;
     }
 }
