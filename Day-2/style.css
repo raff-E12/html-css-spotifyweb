@@ -19,6 +19,7 @@
     --white-2: #F2F2F2;
     --gray-1: #595959;
     --black-3: #141A23;
+    --black-4: #0d1218;
     --black-1: #262626;
     --black-2: #000000;
 }
@@ -34,7 +35,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--black-3);
+    background-color: var(--black-4);
 }
 
 ol, ul {
@@ -277,7 +278,7 @@ small{
 }
 
 .top-bar{
-    background-color: var(--black-1);
+    background-color: var(--black-3);
     padding: 20px;
     height: 79px;
     width: 100%;
@@ -292,6 +293,11 @@ small{
     border: 3px solid var(--white-2);
     color: var(--white-2);
     font-weight: 900;
+    width: 200px;
     border-radius: 100px;
     text-transform: capitalize;
+}
+
+.playlist-menu-sc{
+    border: 1px solid red;
 }
