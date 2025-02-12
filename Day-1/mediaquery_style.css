@@ -19,7 +19,6 @@
 
     .icons-sc{
        justify-content: first baseline;
-       gap: 10px;
        padding: 10px;
     }
 
@@ -52,6 +51,10 @@
     .first-sc li p{
         display: block;
         color: var(--white-2);
+    }
+
+    #ft-sc-1{
+        padding-bottom: 10px;
     }
 
     #home-sc::after{

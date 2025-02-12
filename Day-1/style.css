@@ -183,6 +183,7 @@ small{
 .icons-sc{
     height: calc(130vh - 20vh);
     gap: auto;
+    overflow: hidden;
     justify-content: space-between;
 }
 
