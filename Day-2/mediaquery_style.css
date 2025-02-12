@@ -1,0 +1,86 @@
+@import url(style.css);
+
+/*MediaQuery per il Desktop Essenziale*/
+
+@media screen and (min-width:910px) {
+    .nav-bar{
+        width: 290px;
+        height: 90vh;
+    }
+
+    .header-sc{
+        height: auto;
+    }
+
+    #logo-big{
+        display: block;
+        padding: 10px;
+    }
+
+    .icons-sc{
+       justify-content: first baseline;
+       padding: 10px;
+    }
+
+    .img-box{
+        width: 66%;
+    }
+
+    #logo-small{
+        display: none;
+    }
+
+    .bottom-bar{
+        width: 100%;
+        height: 1290px;
+        background-color: var(--gray-1);
+    }
+    
+    .first-sc li{
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .first-sc .img-box{
+        width: 13%;
+    }
+
+    .first-sc li p{
+        display: block;
+        color: var(--white-2);
+    }
+
+    #home-sc::after{
+        content: '';
+        padding: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .user-icon{
+        width: 100%;
+        width: 20px;
+        height: 20px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .user-icon img{
+        width: 10px;
+        position: absolute;
+        top: 8px;
+        left: 5px;
+    }
+
+    .playlist-sc{
+        display: flex;
+    }
+
+    #user-sc{
+        border-top: 2px solid var(--gray-1);
+        padding: 10px;
+    }
+}

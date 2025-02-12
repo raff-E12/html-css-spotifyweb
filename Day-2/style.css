@@ -1,0 +1,284 @@
+/* Stile Di Reset Css nei vari elementi */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Dispensa Colori del sito */
+
+:root{
+    --green-1: #BAF241;
+    --black-1: #181D26;
+    --white-2: #F2F2F2;
+    --gray-1: #595959;
+    --black-3: #141A23;
+    --black-1: #262626;
+    --black-2: #000000;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--black-3);
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+img{
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Tipografia e implementazione dei font */
+
+h1{
+    font-size: 47.78px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h2{
+    font-size: 39.81px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h3{
+    font-size: 33.18px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h4{
+    font-size: 27.65px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h5{
+    font-size: 27.65px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h6{
+    font-size: 19.2px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+p{
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+small{
+    font-size: 13.33px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Utilità di classi*/
+
+.container-fluid{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: auto;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.rown{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    gap: auto;
+}
+
+.left{
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.right{
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*Implementazione di stile nei componenti nella sezione mobile-first*/
+
+.header-sc{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: first baseline;
+}
+
+.nav-bar{
+    width: 82px;
+    height: 94vh;
+    padding: 20px;
+    gap: 30px;
+    background-color: var(--black-2);
+}
+
+.img-box{
+    padding: 7px;
+    width: 60px;
+}
+
+.icons-sc{
+    height: calc(130vh - 20vh);
+    gap: auto;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.bottom-bar{
+    width: 100%;
+    height: 80px;
+    z-index: 9;
+    background-color: var(--gray-1);
+}
+
+.first-sc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.first-sc li{
+    display: flex;
+}
+
+.first-sc li p{
+    display: none;
+}
+
+.first-sc .img-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    position: relative;
+}
+
+#home-sc::after{
+    content: '';
+    padding: 3px;
+    width: 10px;
+    height: 40px;
+    background-color: var(--green-1);
+    position: absolute;
+    left: -14px;
+    z-index: 10;
+}
+
+.user-icon{
+    background-color: var(--gray-1);
+    width: 50px;
+    height: 50px;
+    padding: 9px;
+    border-radius: 100px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#logo-big{
+    display: none;
+}
+
+.playlist-sc{
+    color: var(--white-2);
+    align-items: flex-start;
+    padding: 10px;
+    gap: 20px;
+    display: none;
+}
+
+.playlist-sc ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 4px;
+}
+
+.text-play{
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.icons-play{
+    gap: 20px;
+}
+
+#icon-play{
+    padding: 10px;
+    background: var(--gray-1);
+    color: var(--black-3);
+}
+
+.top-bar{
+    background-color: var(--black-1);
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+}
