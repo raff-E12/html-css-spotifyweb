@@ -277,6 +277,13 @@ small{
     color: var(--black-3);
 }
 
+/* Main Section */
+
+.main-sc{
+    gap: 50px;
+    padding: 10px;
+}
+
 .top-bar{
     background-color: var(--black-3);
     padding: 20px;
@@ -393,3 +400,29 @@ small{
     font-weight: 900;
     padding: 10px;
 }
+
+.mix-sc{
+    border: 2px solid red;
+    width: 90%;
+    padding: 10px;
+}
+
+.mix-text{
+    border: 2px solid red;
+    width: 100%;
+    text-align: left;
+    color: var(--white-2);
+}
+
+.mix-text h3,.mix-text p{
+    width: 100%;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.mix-play{
+    width: 100%;
+    border: 2px solid red;
+    padding: 10px;
+}
+
