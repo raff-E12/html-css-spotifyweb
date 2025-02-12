@@ -300,4 +300,55 @@ small{
 
 .playlist-menu-sc{
     border: 1px solid red;
+    padding-left: 50px;
 }
+
+.tags{
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.tags ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    line-height: 30px;
+    width: 56%;
+}
+
+.tags ul li a{
+    color: var(--gray-1) ;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.tags #selected{
+    position: relative;
+}
+
+.tags #selected a{
+    color: var(--white-2);
+}
+
+.tags #selected::after{
+    content: '';
+    background-color: var(--green-1);
+    padding: 2px;
+    width: 50px;
+    position: absolute;
+    top: 27px;
+    left: 28px;
+}
+
