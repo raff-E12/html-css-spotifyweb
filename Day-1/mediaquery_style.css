@@ -53,10 +53,6 @@
         color: var(--white-2);
     }
 
-    #ft-sc-1{
-        padding-bottom: 10px;
-    }
-
     #home-sc::after{
         content: '';
         padding: 0;
