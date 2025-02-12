@@ -2,6 +2,15 @@
 
 /*MediaQuery per il Desktop Essenziale*/
 
+@media (min-width:461px) and (max-width:886px) {
+    .front-menu, .mix-play, .art-cont{
+        justify-content: center;
+        display: flex;
+        width: 90%;
+        border: 1px solid red;
+    }
+}
+
 @media screen and (min-width:1001px) {
     .nav-bar{
         width: 290px;
@@ -82,5 +91,9 @@
     #user-sc{
         border-top: 2px solid var(--gray-1);
         padding: 10px;
+    }
+
+    .playlist-menu-sc{
+        padding-left: 240px;
     }
 }
