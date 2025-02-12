@@ -362,13 +362,20 @@ small{
     padding: 12px;
 }
 
-.playlist-menu-sc h3{
+#text-play{
     color: var(--white-2);
     text-align: left;
     width: 90%;
     font-weight: 900;
     padding: 20px;
 }
+
+
+.mix-text h3{
+    color: var(--white-2);
+    font-weight: 900;
+}
+
 
 .playlist{
     gap: 20px;

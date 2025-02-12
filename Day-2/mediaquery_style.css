@@ -7,7 +7,19 @@
         justify-content: center;
         display: flex;
         width: 90%;
-        border: 1px solid red;
+    }
+
+    #text-play{
+        width: 90%;
+    }
+
+    .mix-sc{
+        width: 90%;
+    }
+
+    .artist-sc{
+        width: 90%;
+        padding: 10px;
     }
 }
 
@@ -29,6 +41,10 @@
     .icons-sc{
        justify-content: first baseline;
        padding: 10px;
+    }
+
+    .tags ul{
+        gap: 30px;
     }
 
     .img-box{
@@ -94,6 +110,24 @@
     }
 
     .playlist-menu-sc{
-        padding-left: 240px;
+        padding-left: 250px;
+        gap: 20px;
+    }
+
+    .front-menu{
+        width: 80%;
+    }
+
+    #text-play{
+        width: 80%;
+    }
+
+    .mix-sc{
+        width: 80%;
+    }
+
+    .artist-sc{
+        width: 80%;
+        padding: 10px;
     }
 }
