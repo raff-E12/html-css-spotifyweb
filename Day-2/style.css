@@ -299,17 +299,15 @@ small{
 }
 
 .playlist-menu-sc{
-    border: 1px solid red;
-    padding-left: 50px;
+    padding-left: 60px;
 }
 
 .tags{
     width: 100%;
-    border: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 40px;
 }
 
 .tags ul{
@@ -352,3 +350,46 @@ small{
     left: 28px;
 }
 
+.front-menu{
+    width: 90%;
+    gap: 30px;
+    padding: 12px;
+}
+
+.playlist-menu-sc h3{
+    color: var(--white-2);
+    text-align: left;
+    width: 90%;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.playlist{
+    gap: 20px;
+}
+
+.img-playlist{
+    width: 201px;
+}
+
+.play-box{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.play-text{
+    color: var(--white-2);
+    gap: 10px;
+}
+
+.play-text h6{
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    padding: 10px;
+}
