@@ -14,7 +14,7 @@
     }
 
     .mix-sc{
-        width: 90%;
+        width: 99%;
     }
 
     .artist-sc{
@@ -162,11 +162,10 @@
         width: 100%;
     }
 
-    .img-playlist{
-        width: 330px;
+    .img-playlist,.img-playlist{
+        width: 290px;
         padding: 10px;
     }
-
     
     .front-menu{
         width: 89%;
