@@ -169,7 +169,7 @@ small{
 
 .nav-bar{
     width: 82px;
-    height: 94vh;
+    height: calc(100vh - 100px);
     padding: 20px;
     gap: 30px;
     background-color: var(--black-2);
@@ -189,15 +189,13 @@ small{
 
 .bottom-bar{
     width: 100%;
-    height: 80px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid red;
     z-index: 9;
-    padding: 2px;
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    align-items: first baseline;
-    justify-content: space-between;
-    background-color: var(--black-4);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--black-3);
 }
 
 .first-sc{
@@ -312,7 +310,7 @@ small{
 }
 
 .playlist-menu-sc{
-    padding-left: 70px;
+    padding-left: 100px;
     padding-bottom: 90px;
 }
 
@@ -378,7 +376,6 @@ small{
     padding: 20px;
 }
 
-
 .mix-text h3{
     color: var(--white-2);
     font-weight: 900;
@@ -391,17 +388,18 @@ small{
 }
 
 .img-playlist{
-    width: 200px;
+    width: auto;
 }
 
 .play-box{
-    padding: 10px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
     gap: 10px;
-    width: 300px;
+    width: 200px;
 }
 
 .play-text{
@@ -500,14 +498,60 @@ small{
     padding: 10px;
 }
 
+.song-cover-sc, .player-option, .right-op{
+    border: 2px solid red;
+    width: 100%;
+    height: 80px;
+    gap: 10px;
+}
+
 .song-cover-sc, .cover-sc, .int-sc{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 15px;
+    gap: 10px;
     color: var(--white-2);
 }
 
 .title-song h6{
     font-weight: 900;
+}
+
+.title-song small{
+    color: var(--gray-1);
+}
+
+.int-sc{
+    flex-wrap: wrap;
+    gap: 13px;
+    display: none;
+}
+
+.player-option,.btn-op, .player-cont{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 2px solid red;
+    text-align: center;
+    color: var(--white-2);
+    font-size: 22px;
+    padding: 2px;
+}
+
+.btn-op{
+    gap: 12px;
+}
+
+
+.player-line{
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.line{
+    width: 100%;
+    padding: 2px;
+    background-color: var(--green-1);
 }
