@@ -38,6 +38,35 @@
         width: 90%;
         padding: 10px;
     }
+
+    .bottom-bar{
+        grid-template-columns: auto 55% auto;
+    } 
+
+    .title-song{
+        display: none;
+     }
+ 
+     .int-sc{
+        display: none;
+     } 
+}
+
+
+@media (max-width:1248px) and (min-width:800px) {
+    
+    .song-cover-sc .int-sc{
+       display: none;
+    }
+
+    .song-cover-sc{
+        justify-content: center;
+    }
+
+    .song-cover-sc .cover-sc{
+        width: 100%;
+        flex-wrap: nowrap;
+    }
 }
 
 /*Adattamento per il Desktop Essenziale*/
@@ -46,6 +75,11 @@
     .nav-bar{
         width: 290px;
         height: 84vh;
+    }
+
+    .int-sc{
+        display: flex;
+        width: 20%;
     }
 
     .header-sc{
@@ -164,6 +198,27 @@
         width: 89%;
         padding: 10px;
     }
+
+    .bottom-bar{
+        grid-template-columns: 29% 48% 20%;
+    }  
+
+    .vol-sc{
+        width: 100%;
+    }
+
+    .vol-line .line-second, .vol-line .line{
+        display: block;
+    }  
+    
+    .right-op{
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+
+    .title-song{
+        display: flex;
+    }
 }
 
 /*Adattamendo per Schermi Grandi*/
@@ -207,6 +262,10 @@
     .artist-sc{
         width: 89%;
         padding: 10px;
+    }
+
+    .int-sc{
+        display: flex;
     }
 }
 
