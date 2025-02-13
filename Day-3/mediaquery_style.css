@@ -1,0 +1,202 @@
+@import url(style.css);
+
+/*Adattaemento Sequneziale dal Mobile al Tablet in transizione*/
+
+@media (min-width:461px) and (max-width:886px) {
+    .front-menu, .mix-play, .art-cont{
+        justify-content: center;
+        display: flex;
+        width: 90%;
+    }
+
+    #text-play{
+        width: 90%;
+    }
+
+    .mix-sc{
+        width: 99%;
+    }
+
+    .artist-sc{
+        width: 90%;
+        padding: 10px;
+    }
+}
+
+/*Adattamento per il Desktop Essenziale*/
+
+@media screen and (min-width:1001px) {
+    .nav-bar{
+        width: 290px;
+        height: 90vh;
+    }
+
+    .header-sc{
+        height: auto;
+    }
+
+    #logo-big{
+        display: block;
+        padding: 10px;
+    }
+
+    .icons-sc{
+       justify-content: first baseline;
+       padding: 10px;
+    }
+
+    .tags ul{
+        gap: 30px;
+    }
+
+    .img-box{
+        width: 66%;
+    }
+
+    #logo-small{
+        display: none;
+    }
+
+    .bottom-bar{
+        width: 100%;
+        height: 1290px;
+        background-color: var(--gray-1);
+    }
+    
+    .first-sc li{
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .first-sc .img-box{
+        width: 13%;
+    }
+
+    .first-sc li p{
+        display: block;
+        color: var(--white-2);
+    }
+
+    #home-sc::after{
+        content: '';
+        padding: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .user-icon{
+        width: 100%;
+        width: 20px;
+        height: 20px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .user-icon img{
+        width: 10px;
+        position: absolute;
+        top: 8px;
+        left: 5px;
+    }
+
+    .playlist-sc{
+        display: flex;
+    }
+
+    #user-sc{
+        border-top: 2px solid var(--gray-1);
+        padding: 10px;
+    }
+
+    .playlist-menu-sc{
+        padding-left: 250px;
+        gap: 20px;
+    }
+
+    .front-menu{
+        width: 89%;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
+    .img-playlist{
+        width: 240px;
+        padding: 10px;
+    }
+
+    .play-box{
+        padding: 30px;
+    }
+
+    #text-play{
+        width: 89%;
+    }
+
+    .mix-sc{
+        width: 89%;
+    }
+
+    .mix-play{
+        width: 100%;
+    }
+
+    .artist-sc{
+        width: 89%;
+        padding: 10px;
+    }
+}
+
+/*Adattamendo per Schermi Grandi*/
+
+@media screen and (min-width:2100px) {
+    .playlist-menu-sc{
+        padding-left: 210px;
+        padding-bottom: 190px;
+        gap: 20px;
+    }
+
+    .mix-play{
+        width: 100%;
+    }
+
+    .img-playlist,.img-playlist{
+        width: 290px;
+        padding: 10px;
+    }
+    
+    .front-menu{
+        width: 89%;
+        padding: 40px;
+        justify-content: flex-start;
+        gap: 80px;
+    }
+
+    #text-play{
+        width: 89%;
+    }
+
+    .mix-play{
+        gap: 80px;
+        padding: 40px;
+    }
+
+    .mix-sc{
+        width: 89%;
+    }
+
+    .artist-sc{
+        width: 89%;
+        padding: 10px;
+    }
+}
+
+/*Prevenzione di gap nella navbar laterale*/
+
+@media screen and (max-height:720px){
+    .playlist-sc ul{
+        display: none;
+    }
+}

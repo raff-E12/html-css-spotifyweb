@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Clone Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="mediaquery_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Lexend:wght@282&family=Montserrat:ital,wght@0,417;1,417&family=Nerko+One&family=Pacifico&family=Plus+Jakarta+Sans:wght@660&family=Poppins&family=Quicksand:wght@647&family=Raleway:wght@526&family=Roboto:wght@499&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Header-->
+    <header class="header-sc container-fluid left">
+      <section class="nav-bar container">
+        <div class="img-box">
+            <img src="img/logo-small.svg" alt="logo-sc" id="logo-small">
+            <img src="img/logo.svg" alt="logo-big" id="logo-big">
+        </div>
+        <nav class="icons-sc container col">
+            <ul class="first-sc">
+                <li><div class="img-box" id="home-sc"><img src="img/home.svg" alt="home"></div><p>Home</p></li>
+                <li><div class="img-box"><img src="img/search.svg" alt="search"></div><p>Cerca</p></li>
+                <li><div class="img-box"><img src="img/libreria.svg" alt="library"></div><p>La tua libreria</p></li>
+            </ul>
+            <div class="playlist-sc container-fluid left col">
+                <div class="text-play container-fluid col">
+                    <h4>Playlists</h4>
+                    <div class="icons-play container-fluid row left">
+                        <div id="icon-play">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <p>Crea la tua playlist</p>
+                    </div>
+                </div>
+                <ul>
+                    <li><p>Nome Playlist</p></li>
+                    <li><p>Nome Playlist</p></li>
+                    <li><p>Nome Playlist</p></li>
+                    <li><p>Nome Playlist</p></li>
+                </ul>
+            </div>
+            <ul class="first-sc">
+                <li><div class="img-box"><img src="img/download.svg" alt="download"></div><p>Installa App</p></li>
+                <li id="user-sc"><div class="user-icon"><img src="img/profile.svg" alt="user"></div><p>Users</p></li>
+            </ul>
+        </nav>
+      </section>
+        <nav class="bottom-bar"></nav>
+    </header>
+    <main class="main-sc container-fluid col">
+        <!--Top-Bar-->
+        <section class="top-bar">
+            <div class="container-fluid right">
+                <button class="btn-up"><p>Effetua l'Upgrade</p></button>
+            </div>
+        </section>
+        <!--Links Main-->
+        <section class="playlist-menu-sc container-fluid col">
+            <nav class="tags">
+                <ul>
+                    <li id="selected"><a href="#">in evidenza</a></li>
+                    <li><a href="#">podcast</a></li>
+                    <li><a href="#">classifiche</a></li>
+                    <li><a href="#">generi e modo</a></li>
+                    <li><a href="#">nuove uscite</a></li>
+                    <li><a href="#">scopri</a></li>
+                </ul>
+            </nav>
+            <h3 id="text-play">Recently Played</h3>
+            <section class="front-menu container-fluid rown">
+                    <!-- Playlist 1-->
+                    <div class="play-box">
+                        <div class="img-playlist">
+                            <img src="img/metal_lifting.jpg" alt="playlist">
+                        </div>
+                         <div class="play-text container-fluid col">
+                            <h6>Heavy Metal</h6>
+                            <small>Subtitle</small>
+                         </div>
+                     </div>
+                </div>
+                   <!-- Playlist 2-->
+                        <div class="play-box">
+                           <div class="img-playlist">
+                               <img src="img/stranger.jpeg" alt="playlist">
+                           </div>
+                            <div class="play-text container-fluid col">
+                               <h6>Stranger Things vol. 1 (a Netflix Original Series Soundtrack)</h6>
+                               <small>Kyle Dixon & Michael Stein</small>
+                            </div>
+                        </div>
+                <!-- Playlist 3-->
+                   <div class="play-box">
+                       <div class="img-playlist">
+                           <img src="img/split.jpeg" alt="playlist">
+                       </div>
+                        <div class="play-text container-fluid col">
+                           <h6>Split</h6>
+                           <small>Subtitle</small>
+                        </div>
+                    </div>
+               </div>
+               <!-- Playlist 4-->
+                   <div class="play-box">
+                       <div class="img-playlist">
+                           <img src="img/cure.jpeg" alt="playlist">
+                       </div>
+                        <div class="play-text container-fluid col">
+                           <h6>A cure of wellnes</h6>
+                           <small>Subtitle</small>
+                        </div>
+                    </div>
+               </div>
+                <!-- Playlist 5-->
+               <div class="play-box">
+                   <div class="img-playlist">
+                       <img src="img/sinister.jpeg" alt="playlist">
+                   </div>
+                    <div class="play-text container-fluid col">
+                       <h6>Sinister</h6>
+                       <small>Subtitle</small>
+                    </div>
+                 </div>
+              </div>
+            </section>
+            <!-- Playlist Mix-->
+            <section class="container-fluid col mix-sc">
+                <div class="container-fluid col mix-text">
+                    <h3>Creato per Users</h3>
+                    <small>più ascolti, più accurati saranno i suggerimenti.</small>
+                </div>
+                <aside class="container-fluid rown mix-play">
+                    <div class="play-box">
+                        <div class="img-playlist">
+                            <img src="img/radar.jpeg" alt="playlist">
+                        </div>
+                         <div class="play-text container-fluid col">
+                            <h6>Release Radar</h6>
+                         </div>
+                      </div>
+                   </div>
+                    <div class="play-box">
+                        <div class="img-playlist">
+                            <img src="img/mixdaily.jpeg" alt="playlist">
+                        </div>
+                         <div class="play-text container-fluid col">
+                            <h6>Daily Mix 1</h6>
+                         </div>
+                      </div>
+                   </div>
+                </aside>
+            </section>
+            <!--Artist Section-->
+             <section class="artist-sc container-fluid col left">
+                <div class="text-art-sc container-fluid col left">
+                    <h4 class="container-fluid left">Artisti più popolari</h4>
+                    <small class="container-fluid left">Più ascolti, più accurati saranno i suggerimenti</small>
+                </div>
+                  <!--Artist Icons-->
+                <nav class="container-fluid rown left art-cont">
+                    <div class="box-artist">
+                        <div class="box-art-img">
+                            <img src="img/einaudi.jpeg" alt="artist">
+                        </div>
+                        <p>Ludovico Einaudi</p>
+                    </div>
+                    <div class="box-artist">
+                        <div  class="box-art-img">
+                            <img src="img/youg.jpeg" alt="artist">
+                        </div>
+                        <p>Lana del Ray</p>
+                    </div>
+                </nav>
+             </section>
+        </section>
+    </main>
+</body>
+</html>
