@@ -551,6 +551,10 @@ small{
     display: none;
 }
 
+.player-cont{
+    gap: 10px;
+}
+
 .player-option,.btn-op, .player-cont{
     display: flex;
     align-content: center;

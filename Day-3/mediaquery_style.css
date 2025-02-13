@@ -74,7 +74,7 @@
 @media screen and (min-width:1001px) {
     .nav-bar{
         width: 290px;
-        height: 84vh;
+        height: 87vh;
     }
 
     .int-sc{
@@ -194,6 +194,10 @@
         width: 100%;
     }
 
+    .player-cont{
+        gap: 10px;
+    }
+
     .artist-sc{
         width: 89%;
         padding: 10px;
@@ -253,10 +257,15 @@
     .mix-play{
         gap: 80px;
         padding: 40px;
+        width: 100%;
     }
 
     .mix-sc{
         width: 89%;
+    }
+
+    .play-box{
+        width: 28%;
     }
 
     .artist-sc{
@@ -264,9 +273,17 @@
         padding: 10px;
     }
 
+    .nav-bar{
+        height: 90vh;
+    }
+
     .int-sc{
         display: flex;
     }
+
+    .bottom-bar{
+        grid-template-columns: 20% 57% 20%;
+    }  
 }
 
 /*Prevenzione di gap nella navbar laterale*/
