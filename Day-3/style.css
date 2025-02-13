@@ -163,8 +163,10 @@ small{
     position: fixed;
     top: 0;
     left: 0;
+    pointer-events: none;
     flex-wrap: wrap;
     align-items: first baseline;
+    background-color: transparent;
 }
 
 .nav-bar{
@@ -173,6 +175,7 @@ small{
     padding: 20px;
     gap: 30px;
     background-color: var(--black-2);
+    pointer-events: all;
 }
 
 .img-box{
@@ -196,6 +199,7 @@ small{
     display: grid;
     grid-template-columns: auto 55% auto;
     background-color: var(--black-3);
+    pointer-events: all;
 }
 
 .first-sc{
@@ -625,6 +629,7 @@ small{
 
 .line::after{
     content: '';
+    display: none;
     padding: 10px;
     position: absolute;
     background-color: var(--white-2);
@@ -638,4 +643,34 @@ small{
     padding: 2px;
     display: none;
     background-color: var(--gray-1);
+}
+
+/* Hovering di animazione */
+
+.nav-bar ul li p{
+    color: var(--gray-1);
+}
+
+.nav-bar ul li p:hover{
+    color: var(--white-2);
+    cursor: pointer;
+}
+
+.playlist-menu-sc .tags ul li a:hover{
+    color: var(--white-2);
+    cursor: pointer;
+}
+
+#icon-play:hover{
+    background-color: var(--white-2);
+    cursor: pointer;
+}
+
+.line:hover{
+    cursor: pointer;
+}
+
+.line:hover::after{
+    display: block;
+    cursor: pointer;
 }
