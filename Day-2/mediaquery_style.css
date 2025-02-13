@@ -118,6 +118,17 @@
 
     .front-menu{
         width: 89%;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
+    .img-playlist{
+        width: 240px;
+        padding: 10px;
+    }
+
+    .play-box{
+        padding: 30px;
     }
 
     #text-play{
@@ -126,6 +137,10 @@
 
     .mix-sc{
         width: 89%;
+    }
+
+    .mix-play{
+        width: 100%;
     }
 
     .artist-sc{
@@ -138,17 +153,44 @@
 
 @media screen and (min-width:2100px) {
     .playlist-menu-sc{
-        padding-left: 150px;
-        padding-bottom: 120px;
+        padding-left: 210px;
+        padding-bottom: 190px;
         gap: 20px;
-    }
-
-    .front-menu{
-        justify-content: flex-start;
     }
 
     .mix-play{
         width: 100%;
+    }
+
+    .img-playlist{
+        width: 330px;
+        padding: 10px;
+    }
+
+    
+    .front-menu{
+        width: 89%;
+        padding: 40px;
+        justify-content: flex-start;
+        gap: 80px;
+    }
+
+    #text-play{
+        width: 89%;
+    }
+
+    .mix-play{
+        gap: 80px;
+        padding: 40px;
+    }
+
+    .mix-sc{
+        width: 89%;
+    }
+
+    .artist-sc{
+        width: 89%;
+        padding: 10px;
     }
 }
 
