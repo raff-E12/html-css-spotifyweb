@@ -6,11 +6,25 @@
     .front-menu, .mix-play, .art-cont{
         justify-content: flex-start;
         display: flex;
-        width: 99%;
+        width: 90%;
+    }
+
+    .nav-bar{
+        height: calc(100vh - 100px);
+    }
+    
+    .tags{
+        padding-right: calc(10% - 10px);
+        justify-content: center;
     }
 
     .playlist-menu-sc{
-        padding-left: 109px;
+        padding-left: calc(20% - 10px);
+        padding-bottom: 90px;
+    }
+
+    .tags ul{
+        width: 70%;
     }
 
     .img-playlist{
@@ -67,6 +81,12 @@
         width: 100%;
         flex-wrap: nowrap;
     }
+
+    .front-menu{
+        justify-content: center;
+        width: auto;
+    }
+
 }
 
 /*Adattamento per il Desktop Essenziale*/
@@ -74,7 +94,7 @@
 @media screen and (min-width:1001px) {
     .nav-bar{
         width: 290px;
-        height: 87vh;
+        height: calc(93vh - 45px);
     }
 
     .int-sc{
@@ -84,6 +104,12 @@
 
     .header-sc{
         height: auto;
+    }
+
+    .tags{
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: center;
     }
 
     #logo-big{
@@ -208,7 +234,7 @@
     }  
 
     .vol-sc{
-        width: 100%;
+        width: auto;
     }
 
     .vol-line .line-second, .vol-line .line{
@@ -222,6 +248,14 @@
 
     .title-song{
         display: flex;
+    }
+
+    .vol-line .line{
+        width: 80px;
+    }
+
+    .vol-sc .line-second{
+        width: 190px;
     }
 
     .vol-line .line::after{
@@ -288,8 +322,32 @@
     }
 
     .bottom-bar{
-        grid-template-columns: 20% 57% 20%;
+        grid-template-columns: 20% 63% 20%;
     }  
+
+    .player-line .line-second{
+        width: 100%;
+    }
+
+    .vol-sc{
+        width: auto;
+        gap: 20px;
+    }
+
+    .vol-line .line{
+        width: 90px;
+    }
+
+    
+    .vol-line .line::after{
+        top: -8px;
+        left: calc(80px - 10px);
+        border-radius: 100px;
+    }
+
+    .vol-line .line-second{
+        width: 130px;
+    }
 }
 
 /*Prevenzione di gap nella navbar laterale*/
