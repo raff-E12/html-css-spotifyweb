@@ -223,6 +223,12 @@
     .title-song{
         display: flex;
     }
+
+    .vol-line .line::after{
+        top: -8px;
+        left: calc(82px - 10px);
+        border-radius: 100px;
+    }
 }
 
 /*Adattamendo per Schermi Grandi*/

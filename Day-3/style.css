@@ -621,7 +621,7 @@ small{
 }
 
 .vol-line .line{
-    width: 90px;
+    width: 80px;
     display: none;
     padding: 2px;
     background-color: var(--green-1);
@@ -639,7 +639,7 @@ small{
 }
 
 .vol-line .line-second{
-    width: 90%;
+    width: 130px;
     padding: 2px;
     display: none;
     background-color: var(--gray-1);
@@ -672,5 +672,15 @@ small{
 
 .line:hover::after{
     display: block;
+    cursor: pointer;
+}
+
+.int-sc i, .right-op i{
+    color: var(--gray-1);
+}
+
+
+.int-sc i:hover, .right-op i:hover{
+    color: var(--white-2);
     cursor: pointer;
 }
